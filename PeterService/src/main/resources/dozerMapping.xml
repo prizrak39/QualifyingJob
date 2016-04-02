@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappings xmlns="http://dozer.sourceforge.net" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://dozer.sourceforge.net http://dozer.sourceforge.net/schema/beanmapping.xsd">
+
+    <mapping map-id="a">
+        <class-a>ru.peter.classes.Users</class-a>
+        <class-b>ru.peter.classes.UserSimple</class-b>
+        <field>
+            <a>name</a>
+            <b>lastName</b>
+        </field>
+        <field>
+            <a>point</a>
+            <b>points.point</b>
+        </field>
+    </mapping>
+</mappings>
