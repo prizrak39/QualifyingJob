@@ -14,7 +14,7 @@ public class Main {
         for (int i = 0; i < 10; i++) {
             masTest.add(generateValue.generateRow(5));
         }
-        task.print(masTest);
+//        task.print(masTest);
         System.out.println();
         task.sort(masTest, 1);
     }
